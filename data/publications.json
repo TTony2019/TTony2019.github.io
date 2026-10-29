@@ -1,0 +1,112 @@
+[
+  {
+    "id": "veriscale",
+    "title": "VeriScale: Adversarial Test-Suite Scaling for Verifiable Code Generation",
+    "authors": ["Yifan Bai", "Xiaoyang Liu", "Zihao Mou", "Guihong Wang", "Jian Yu", "Shuhan Xie", "Yantao Li", "Yangyu Zhang", "Jingwei Liang", "Tao Luo"],
+    "year": 2026,
+    "date": "2026-05-21",
+    "venue": "ICML 2026 · AI4Math Workshop",
+    "kind": "workshop",
+    "topics": ["formal", "ai4math"],
+    "arxiv": "2605.22368",
+    "url": "https://arxiv.org/abs/2605.22368",
+    "pdf": "https://arxiv.org/pdf/2605.22368",
+    "code": "https://github.com/XiaoyangLiu-sjtu/VeriScale",
+    "summary": {
+      "en": "Adversarially expanding and reducing test suites to better evaluate the formal verifiability of LLM-generated code.",
+      "zh": "通过对抗性地扩展与精简测试集，更准确地评估大语言模型生成代码的形式可验证性。"
+    },
+    "abstract": {
+      "en": "Existing code generation benchmarks can overestimate model capabilities because of limited test coverage. VeriScale uses adversarial implementations to expand test suites, then distills them into compact, discriminative suites. Applied to Verina, the framework produces VerinaPlus and VerinaLite. Experiments across eight large language models reveal weaknesses in specification and code generation that the original benchmark misses.",
+      "zh": "现有代码生成基准受测试覆盖范围限制，可能高估模型能力。VeriScale 利用对抗性实现扩展测试集，再将其精简为紧凑且具有区分力的测试集。基于 Verina，我们构建了 VerinaPlus 与 VerinaLite。对八种大语言模型的实验揭示了原始基准未能发现的规约生成与代码生成能力缺陷。"
+    }
+  },
+  {
+    "id": "dsr",
+    "title": "Decompose, Structure, and Repair: A Neuro-Symbolic Framework for Autoformalization via Operator Trees",
+    "authors": ["Xiaoyang Liu", "Zineng Dong", "Yifan Bai", "Yantao Li", "Yuntian Liu", "Tao Luo"],
+    "year": 2026,
+    "date": "2026-04-21",
+    "venue": "ICML 2026",
+    "kind": "conference",
+    "topics": ["formal", "ai4math"],
+    "arxiv": "2604.19000",
+    "url": "https://arxiv.org/abs/2604.19000",
+    "pdf": "https://arxiv.org/pdf/2604.19000",
+    "code": "https://github.com/XiaoyangLiu-sjtu/DSR",
+    "summary": {
+      "en": "A structured, neuro-symbolic approach to translating mathematical statements into Lean 4, with localized error repair.",
+      "zh": "以算子树组织数学陈述，通过局部错误修复，将自然语言数学命题转化为 Lean 4 形式化陈述。"
+    },
+    "abstract": {
+      "en": "DSR restructures statement autoformalization into a modular pipeline: decompose a mathematical statement, map it to an operator tree, and localize and repair errors through subtree refinement. The work also introduces PRIME, a benchmark of 156 undergraduate and graduate-level theorems annotated in Lean 4. The framework improves autoformalization under matched computational budgets.",
+      "zh": "DSR 将数学陈述自动形式化重构为模块化流程：分解陈述、映射为算子树，再通过子树细化定位并修复错误。该工作还提出 PRIME 基准，包含 156 个经 Lean 4 标注的本科及研究生水平定理。在相同计算预算下，DSR 提升了自动形式化的效果。"
+    }
+  },
+  {
+    "id": "block-structures",
+    "title": "Formalization of algorithms for optimization with block structures",
+    "authors": ["Chenyi Li", "Zichen Wang", "Yifan Bai", "Yunxi Duan", "Yuqing Gao", "Pengfei Hao", "Zaiwen Wen"],
+    "year": 2026,
+    "date": "2026-04-14",
+    "venue": "Science China Mathematics",
+    "kind": "journal",
+    "topics": ["optimization", "formal"],
+    "doi": "10.1007/s11425-025-2516-2",
+    "pages": "1--18",
+    "url": "https://doi.org/10.1007/s11425-025-2516-2",
+    "pdf": "https://www.sciengine.com/parse/pdf/1674-7283/9BEE5F03B7904D7AAAFA4843EA4AC75A.pdf",
+    "summary": {
+      "en": "Machine-checked convergence analysis for block coordinate descent and ADMM using the Lean 4 proof assistant.",
+      "zh": "使用 Lean 4 证明助手，对分块坐标下降法与交替方向乘子法的收敛性进行形式化验证。"
+    },
+    "abstract": {
+      "en": "This work formalizes convergence analysis for block coordinate descent and the alternating direction method of multipliers in Lean 4. It develops reusable foundations for nonsmooth and nonconvex optimization, including subdifferentials and the Kurdyka–Łojasiewicz property, to support machine-checked proofs for block-structured optimization algorithms.",
+      "zh": "该工作在 Lean 4 中形式化了分块坐标下降法与交替方向乘子法的收敛性分析，并建立了非光滑、非凸优化的可复用基础，包括次微分与 Kurdyka–Łojasiewicz 性质，为分块结构优化算法提供机器可检验的收敛性证明。"
+    }
+  },
+  {
+    "id": "fixed-point",
+    "title": "Formalization of Two Fixed-Point Algorithms in Hilbert Spaces",
+    "authors": ["Yifan Bai", "Yantao Li", "Jian Yu", "Jingwei Liang"],
+    "year": 2026,
+    "date": "2026-02-19",
+    "venue": "arXiv preprint",
+    "kind": "preprint",
+    "topics": ["optimization", "formal"],
+    "arxiv": "2602.17064",
+    "url": "https://arxiv.org/abs/2602.17064",
+    "pdf": "https://arxiv.org/pdf/2602.17064",
+    "code": "https://github.com/TTony2019/fixed-point-iterations-in-lean",
+    "summary": {
+      "en": "Formal convergence proofs for Krasnosel’skiĭ–Mann and Halpern iterations in infinite-dimensional Hilbert spaces.",
+      "zh": "在无限维 Hilbert 空间中，形式化证明 Krasnosel’skiĭ–Mann 迭代与 Halpern 迭代的收敛性。"
+    },
+    "abstract": {
+      "en": "We formalize the convergence of Krasnosel’skiĭ–Mann and Halpern iterations in Lean 4. The development includes weak convergence, topological properties of real Hilbert spaces, nonexpansive operators, and Fejér monotone sequences. These components form a reusable foundation for verified fixed-point algorithms and convex analysis.",
+      "zh": "我们在 Lean 4 中形式化证明了 Krasnosel’skiĭ–Mann 迭代与 Halpern 迭代的收敛性。相关基础包括弱收敛、实 Hilbert 空间的拓扑性质、非扩张算子与 Fejér 单调序列，为不动点算法的形式化验证及凸分析提供可复用的组件。"
+    }
+  },
+  {
+    "id": "adadrops",
+    "title": "Adaptive Dimension Reduction for Overlapping Group Sparsity",
+    "authors": ["Yifan Bai", "Clarice Poon", "Jingwei Liang"],
+    "year": 2026,
+    "date": "2026-01-28",
+    "venue": "arXiv preprint",
+    "kind": "preprint",
+    "topics": ["optimization"],
+    "arxiv": "2601.20697",
+    "url": "https://arxiv.org/abs/2601.20697",
+    "pdf": "https://arxiv.org/pdf/2601.20697",
+    "code": "https://github.com/TTony2019/AdaDROPS",
+    "summary": {
+      "en": "Adaptive support identification and dimension reduction to accelerate optimization with overlapping group sparsity.",
+      "zh": "通过自适应支撑集识别与降维，加速具有重叠组稀疏结构的优化问题求解。"
+    },
+    "abstract": {
+      "en": "We propose new dual certificates for overlapping group sparsity and an adaptive scheme for identifying the support of overlapping group LASSO solutions. The scheme accelerates primal-dual splitting, ADMM, and variable projection methods. The work includes convergence analysis and experiments on standard datasets.",
+      "zh": "我们提出了适用于重叠组稀疏结构的新对偶证书，以及识别重叠组 LASSO 解支撑集的自适应策略。该策略可加速原始对偶分裂、ADMM 和变量投影算法，并通过收敛性分析与标准数据集实验验证其有效性。"
+    }
+  }
+]

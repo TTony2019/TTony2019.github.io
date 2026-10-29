@@ -1,0 +1,24 @@
+[
+  {
+    "name": "AdaDROPS",
+    "url": "https://github.com/TTony2019/AdaDROPS",
+    "language": "MATLAB",
+    "type": { "en": "Optimization", "zh": "数值优化" },
+    "description": {
+      "en": "Adaptive dimension reduction for overlapping group sparsity. Code and experiments for sparse optimization, from LASSO to overlapping group LASSO.",
+      "zh": "面向重叠组稀疏问题的自适应降维方法，包含从 LASSO 到重叠组 LASSO 的稀疏优化算法与实验代码。"
+    },
+    "symbol": "optimization"
+  },
+  {
+    "name": "Fixed-point iterations in Lean",
+    "url": "https://github.com/TTony2019/fixed-point-iterations-in-lean",
+    "language": "Lean 4",
+    "type": { "en": "Formal verification", "zh": "形式化验证" },
+    "description": {
+      "en": "Machine-checked convergence of Krasnosel’skiĭ–Mann and Halpern iterations, with reusable components for analysis in Hilbert spaces.",
+      "zh": "Krasnosel’skiĭ–Mann 迭代与 Halpern 迭代的机器可检验收敛性证明，以及 Hilbert 空间分析的可复用组件。"
+    },
+    "symbol": "proof"
+  }
+]

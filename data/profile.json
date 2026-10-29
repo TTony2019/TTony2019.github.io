@@ -1,0 +1,27 @@
+{
+  "name": "Yifan Bai",
+  "role": "PhD student",
+  "affiliation": "Shanghai Jiao Tong University",
+  "department": "School of Mathematical Sciences",
+  "departmentUrl": "https://www.math.sjtu.edu.cn/Default/english",
+  "advisor": "Jingwei Liang",
+  "email": "yifanbai@sjtu.edu.cn",
+  "visiting": {
+    "role": "Visiting PhD student",
+    "affiliation": "University of Warwick",
+    "department": "Mathematics Institute",
+    "departmentUrl": "https://warwick.ac.uk/fac/sci/maths/",
+    "affiliationUrl": "https://warwick.ac.uk/",
+    "advisor": "Clarice Poon",
+    "advisorUrl": "https://scholar.google.com/citations?user=C-fKJ50AAAAJ&hl=en",
+    "email": "Yifan.Bai@warwick.ac.uk"
+  },
+  "location": {
+    "en": "Currently at Warwick, UK",
+    "zh": "现于英国华威大学访学"
+  },
+  "github": "https://github.com/TTony2019",
+  "scholar": "https://scholar.google.com/citations?user=KpLe5t8AAAAJ&hl=en",
+  "siteUrl": "",
+  "updated": "2026-10-29"
+}

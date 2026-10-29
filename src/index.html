@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en" data-language="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <title>{{NAME}} · Optimization &amp; Formal Reasoning</title>
+  <meta name="description" content="{{DESCRIPTION}}">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{NAME}} · Optimization &amp; Formal Reasoning">
+  <meta property="og:description" content="{{DESCRIPTION}}">
+  <meta name="twitter:card" content="summary">
+  {{URL_META}}
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/dm-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/libre-baskerville-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <script>
+    document.documentElement.classList.add('js');
+    try { if (localStorage.getItem('yb-language') === 'zh') { document.documentElement.lang = 'zh-CN'; document.documentElement.dataset.language = 'zh'; } } catch (_) {}
+  </script>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script type="application/ld+json">{{SCHEMA}}</script>
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main"><span data-lang="en">Skip to content</span><span data-lang="zh">跳转到正文</span></a>
+  <svg class="svg-defs" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 19 19 5M5 5h14v14"/></symbol>
+      <symbol id="i-right" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 6 9 7 9-7"/></symbol>
+      <symbol id="i-scholar" viewBox="0 0 24 24"><path d="m2 9 10-6 10 6-10 6L2 9Zm4 3v6c4 3 8 3 12 0v-6m4-3v8"/></symbol>
+      <symbol id="i-github" viewBox="0 0 24 24"><path d="M9 19c-4.5 1.3-4.5-2.5-6.3-3M15 22v-3.9c.1-1.1-.4-2.2-1-2.8 3.3-.4 6.8-1.6 6.8-7.3a5.7 5.7 0 0 0-1.5-4c.2-1 .2-2.1-.1-3 0 0-1.2-.4-4.1 1.5a14 14 0 0 0-7.4 0C4.8.6 3.6 1 3.6 1c-.3 1-.3 2.1-.1 3a5.7 5.7 0 0 0-1.5 4c0 5.7 3.5 6.9 6.8 7.3-.6.6-1 1.6-.9 2.8V22" transform="translate(1 1) scale(.91)"/></symbol>
+      <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="13" rx="2"/><path d="M16 8V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3"/></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
+      <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+      <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+      <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 3v12m-5-5 5 5 5-5M4 16v4h16v-4"/></symbol>
+    </defs>
+  </svg>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <nav id="site-navigation" class="site-navigation" aria-label="Main navigation">
+        <a href="#about" aria-current="location"><span data-lang="en">About</span><span data-lang="zh">关于</span></a>
+        <a href="#publications"><span data-lang="en">Publications</span><span data-lang="zh">学术论文</span></a>
+        <a href="#code"><span data-lang="en">Code</span><span data-lang="zh">开源代码</span></a>
+        <a href="#mathlib">mathlib</a>
+      </nav>
+      <div class="header-actions">
+        <button id="language-toggle" class="language-toggle" type="button" aria-label="Switch to Chinese">中文</button>
+        <a class="header-contact" href="#contact"><span data-lang="en">Get in touch</span><span data-lang="zh">联系我</span><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <button id="menu-toggle" class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-navigation" aria-label="Open navigation"><svg class="icon" aria-hidden="true"><use href="#i-menu"/></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="about" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title">{{NAME}}</h1>
+        <div class="hero-bio">
+          <p><span data-lang="en">I am a <strong>PhD student</strong> at the <a href="{{DEPARTMENT_URL}}" target="_blank" rel="noopener noreferrer">{{DEPARTMENT}}, {{AFFILIATION}}</a>, advised by <a href="https://scholar.google.com/citations?user=aaIkvG0AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">{{ADVISOR}}</a>, and currently a <strong>visiting PhD student</strong> at the <a href="{{VISITING_DEPARTMENT_URL}}" target="_blank" rel="noopener noreferrer">{{VISITING_DEPARTMENT}}, {{VISITING_AFFILIATION}}</a>, supervised by <a href="{{VISITING_ADVISOR_URL}}" target="_blank" rel="noopener noreferrer">{{VISITING_ADVISOR}}</a>.</span><span data-lang="zh">我是<a href="{{DEPARTMENT_URL}}" target="_blank" rel="noopener noreferrer">上海交通大学数学科学学院</a>的<strong>博士生</strong>，导师为 <a href="https://scholar.google.com/citations?user=aaIkvG0AAAAJ&amp;hl=en" target="_blank" rel="noopener noreferrer">{{ADVISOR}}</a>；目前在<a href="{{VISITING_DEPARTMENT_URL}}" target="_blank" rel="noopener noreferrer">华威大学数学研究院</a>担任<strong>访问博士生</strong>，导师为 <a href="{{VISITING_ADVISOR_URL}}" target="_blank" rel="noopener noreferrer">{{VISITING_ADVISOR}}</a>。</span></p>
+          <p><span data-lang="en">My research focuses on dimension reduction methods for large-scale optimization problems and AI4MATH (Lean-based autoformalization).</span><span data-lang="zh">我的研究方向是大规模优化问题中的降维方法，以及 AI4MATH（基于 Lean 的自动形式化）。</span></p>
+          <p><span data-lang="en">I completed my undergraduate studies at the School of Mathematics, Sun Yat-sen University, majoring in Mathematics and Applied Mathematics.</span><span data-lang="zh">我本科毕业于中山大学数学学院，专业为数学与应用数学。</span></p>
+        </div>
+        <div class="social-links" id="contact">
+          <a href="{{SCHOLAR}}" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-scholar"/></svg>Google Scholar<svg class="icon external-arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a href="{{GITHUB}}" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true"><use href="#i-github"/></svg>GitHub<svg class="icon external-arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a href="mailto:{{EMAIL}}"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg><span data-lang="en">SJTU email</span><span data-lang="zh">交大邮箱</span></a>
+          <a href="mailto:{{VISITING_EMAIL}}"><svg class="icon" aria-hidden="true"><use href="#i-mail"/></svg><span data-lang="en">Warwick email</span><span data-lang="zh">华威邮箱</span></a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <svg class="hero-contours" viewBox="0 0 440 440" fill="none" aria-hidden="true">
+          <g stroke="currentColor" stroke-width=".8" transform="rotate(-30 220 220)">
+            <ellipse cx="220" cy="220" rx="207" ry="143"/><ellipse cx="220" cy="220" rx="175" ry="119"/><ellipse cx="220" cy="220" rx="143" ry="95"/><ellipse cx="220" cy="220" rx="111" ry="71"/><ellipse cx="220" cy="220" rx="79" ry="47"/>
+          </g>
+          <path d="m52 329 56-53 19 37 48-54 23 17 39-52" stroke="currentColor" stroke-width="1.5"/>
+          <g fill="currentColor"><circle cx="52" cy="329" r="3"/><circle cx="108" cy="276" r="3"/><circle cx="127" cy="313" r="3"/></g>
+        </svg>
+        <figure class="portrait-card">
+          <img src="assets/images/portrait.jpg" width="256" height="238" alt="Portrait of Yifan Bai" fetchpriority="high">
+        </figure>
+      </div>
+    </section>
+
+    <section class="publications-section container section" id="publications" aria-labelledby="publications-title">
+      <div class="section-heading">
+        <div><h2 id="publications-title" class="icon-heading"><span class="heading-emoji" aria-hidden="true">📚</span><span class="heading-label"><span data-lang="en">Publications</span><span data-lang="zh">学术论文</span></span></h2></div>
+      </div>
+      <div class="publication-list">{{PUBLICATIONS}}</div>
+    </section>
+
+    <section class="code-section container section" id="code" aria-labelledby="code-title">
+      <div class="section-heading">
+        <div><h2 id="code-title" class="icon-heading"><span class="heading-emoji" aria-hidden="true">💻</span><span class="heading-label"><span data-lang="en">Code</span><span data-lang="zh">代码</span></span></h2></div>
+        <a class="text-link" href="{{GITHUB}}" target="_blank" rel="noopener noreferrer"><span data-lang="en">More on GitHub</span><span data-lang="zh">更多 GitHub 项目</span><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+      </div>
+      <div class="project-grid">{{PROJECTS}}</div>
+    </section>
+
+    <section class="mathlib-section container section" id="mathlib" aria-labelledby="mathlib-title">
+      <div class="section-heading">
+        <div><h2 id="mathlib-title" class="icon-heading"><span class="heading-emoji" aria-hidden="true">🧮</span><span class="heading-label"><span data-lang="en">Mathlib contribution</span><span data-lang="zh">Mathlib 贡献</span></span></h2></div>
+      </div>
+      <ul class="contribution-list">{{CONTRIBUTIONS}}</ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer container"><p>© {{CURRENT_YEAR}} {{NAME}} <span class="footer-divider">/</span> <span data-lang="en">Last updated {{UPDATED_EN}}</span><span data-lang="zh">更新于 {{UPDATED_ZH}}</span></p><a class="back-top" href="#about"><span data-lang="en">Back to top</span><span data-lang="zh">返回顶部</span><span aria-hidden="true">↑</span></a></footer>
+
+  <dialog id="citation-dialog" class="citation-dialog" aria-labelledby="citation-heading">
+    <div class="dialog-header"><div><p class="section-index"><span data-lang="en">Reference</span><span data-lang="zh">论文引用</span></p><h2 id="citation-heading">BibTeX</h2></div><button id="close-citation" class="icon-button" type="button" aria-label="Close citation"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button></div>
+    <p id="citation-title" class="citation-title"></p>
+    <pre tabindex="0"><code id="citation-content"></code></pre>
+    <div class="dialog-actions"><button id="download-citation" class="secondary-button" type="button"><svg class="icon" aria-hidden="true"><use href="#i-download"/></svg><span data-lang="en">Download .bib</span><span data-lang="zh">下载 .bib</span></button><button id="copy-citation" class="primary-button" type="button"><svg class="icon" aria-hidden="true"><use href="#i-copy"/></svg><span data-lang="en">Copy BibTeX</span><span data-lang="zh">复制 BibTeX</span></button></div>
+    <p id="copy-status" class="copy-status" role="status" aria-live="polite"></p>
+  </dialog>
+  <script id="citation-data" type="application/json">{{CITATION_DATA}}</script>
+</body>
+</html>
